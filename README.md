@@ -107,9 +107,9 @@ Di sini kita dapat memilih untuk menginstallnya ke cloud softaculos atau mengins
 ![image](https://github.com/user-attachments/assets/15df75de-11ed-4290-b018-6ecad87bc850)
 
 ## Cara kedua
-Kita tidak perlu menginstall aplikasi limesurvey melalui command line, kita hanya perlu mengakses website resmi instalasi versi terbaru dari limesurvey.
-Install packages dan file zip limesurvey pada link https://community.limesurvey.org/downloads/
-![image](https://github.com/user-attachments/assets/e8ea99c7-0f5b-4bc2-923c-0ad6129001e2)
+- Kita tidak perlu menginstall aplikasi limesurvey melalui command line, kita hanya perlu mengakses website resmi instalasi versi terbaru dari limesurvey.
+- Install packages dan file zip limesurvey pada link https://community.limesurvey.org/downloads/
+ ![image](https://github.com/user-attachments/assets/e8ea99c7-0f5b-4bc2-923c-0ad6129001e2)
 
 
 
