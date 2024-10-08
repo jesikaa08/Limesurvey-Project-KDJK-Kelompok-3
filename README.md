@@ -19,7 +19,7 @@ Sebelum menginstal LimeSurvey, pastikan bahwa sistem memenuhi prasyarat berikut:
 
 ## Proses Instalasi:
 - Buka command line (kelompok kami menggunakan command line pada windows)
-- Masuk ke folder xammp>htdocs untuk menginstall file zip limesurvey yang versi paling baru.
+- Masuk ke folder xampp>htdocs untuk menginstall file zip limesurvey yang versi paling baru.
 ![image](https://github.com/user-attachments/assets/9599b237-eefb-461e-b258-f751d90da72b)
 Proses instalasi sedang berjalan
 ![image](https://github.com/user-attachments/assets/3ea2ea42-3271-43a1-9786-e966297ba515)
@@ -33,7 +33,7 @@ Setelah melakukan proses instalasi, extract file zip yang telah diinstall ke dal
 ![image](https://github.com/user-attachments/assets/edd359c0-854c-424a-b748-aa3ec3445a67)
 - Setelah itu, buat pengguna baru bernama lime_user yang dapat mengakses database dari localhost (komputer yang sama dengan server MariaDB). Buat juga identifikasi pengguna, kata sandi untuk pengguna ini adalah 12345.
 ![image](https://github.com/user-attachments/assets/d37c9ea1-0980-46c6-bdf7-2851d8b29300)
-- Berikan semua kepada pengguna lime_user untuk database limesurvey, memungkinkan operasi seperti SELECT, INSERT, UPDATE, dan DELETE.
+- Berikan semua privilege kepada pengguna lime_user untuk database limesurvey, memungkinkan operasi seperti SELECT, INSERT, UPDATE, dan DELETE.
 ![image](https://github.com/user-attachments/assets/e798b11b-d298-456d-be72-acfbb0205351)
 - Segarkan hak akses agar perubahan segera berlaku.
 ![image](https://github.com/user-attachments/assets/8aa915cb-b82c-4ac9-b2be-ee70caf1eb3c)
@@ -79,9 +79,37 @@ Cocokkan dengan data user serta database yang sudah kita buat tadi
 ![image](https://github.com/user-attachments/assets/e03445cd-3617-46da-9e65-12f5d54e63e1)
 
 
-# Maintenance 
+# Maintenance
+Ketika kita ingin melakukan pemeliharaan atau modifikasi pada aplikasi LimeSurvey yang sudah terinstal, kita mungkin tidak ingin responden atau pengguna lain mengakses survei atau fitur lain selama proses ini. Dalam situasi seperti itu, kita dapat mengatur aplikasi ke dalam maintenance mode.
+Berikut adalah langkah-langkah yang perlu dilakukan:
+- Login ke Admin Panel
+  Akses admin panel LimeSurvey dengan menggunakan kredensial Anda.
+- Navigasi ke Pengaturan Umum
+  Setelah masuk, klik pada menu Pengaturan di sidebar, lalu di dalam menu pengaturan, cari dan pilih tab Maintenance.
+- Aktifkan Maintenance Mode
+  Klik tombol untuk mengaktifkan atau menonaktifkan maintenance mode sesuai kebutuhan. Pilih "On" untuk mengaktifkan 
+  mode pemeliharaan.
+  ![image](https://github.com/user-attachments/assets/2c3e07a6-bc11-4f0a-82ae-3639530fa540)
+- Izinkan Akses untuk IP Tertentu
+  Jika kita ingin mengizinkan teman untuk mengakses aplikasi selama mode pemeliharaan, masukkan alamat IP mereka pada kolom Maintenance IP. Hal ini memungkinkan mereka untuk mengakses aplikasi meskipun dalam mode pemeliharaan.
+   ![Screenshot 2024-10-08 225132](https://github.com/user-attachments/assets/7c360551-2f74-42aa-9edb-904159f2a06a)
+
+- Setelah mengisi alamat IP, jangan lupa untuk mengklik tombol Save untuk menyimpan perubahan
+ ![Screenshot 2024-10-08 224855](https://github.com/user-attachments/assets/4584542c-d64e-49b3-bfd8-bd7229e93bea)
+
 
 # Otomatisasi
+Untuk mempermudah instalasi, kita dapat menggunakan dua cara, yaitu:
+## Cara pertama
+- Menginstall aplikasi Limesurvey pada pengedia layanan hosting seperti softaculos. Kita dapat mengunjungi situs softaculos.com lalu mencari aplikasi limesurvey pada searchbar atau pada kategori polls & analytics.
+![image](https://github.com/user-attachments/assets/ac91369b-b01f-4503-b86c-13cd52356fbd)
+Di sini kita dapat memilih untuk menginstallnya ke cloud softaculos atau menginstall dan mengembangkannya di lokal.
+![image](https://github.com/user-attachments/assets/15df75de-11ed-4290-b018-6ecad87bc850)
+
+## Cara kedua
+Kita tidak perlu menginstall aplikasi limesurvey melalui command line, kita hanya perlu mengakses website resmi instalasi versi terbaru dari limesurvey.
+Install packages dan file zip limesurvey pada link https://community.limesurvey.org/downloads/
+![image](https://github.com/user-attachments/assets/e8ea99c7-0f5b-4bc2-923c-0ad6129001e2)
 
 
 
@@ -108,11 +136,11 @@ Untuk mengaktivasi, dapat dilakukan di menu aktivasi berikut.
 - Akan muncul notifikasi
 ![image](https://github.com/user-attachments/assets/45b21161-602c-434a-a8ad-1d0d4d6f66f5)
 - Setelah itu kita dapat melihat jawaban yang kita kirimkan di menu survey responses
+  Dari jawaban para responden, kita dapat menganalisa data-data yang telah terkumpul
 ![image](https://github.com/user-attachments/assets/e0d4ee62-e6b1-4e87-a87c-03c5396a5722)
 
 
 
-- Mengumpulkan dan menganalisis data responden.
 # Pembahasan
 LimeSurvey memiliki kelebihan seperti antarmuka yang user-friendly dan fitur yang kaya. Namun, mungkin terdapat kekurangan dalam hal kustomisasi dan dukungan teknis. Dibandingkan dengan aplikasi survei lain, LimeSurvey menawarkan fitur yang kompetitif dengan kemampuan untuk mengelola survei secara efisien.
 
