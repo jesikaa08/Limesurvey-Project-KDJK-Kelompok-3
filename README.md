@@ -12,10 +12,10 @@ Sebelum menginstal LimeSurvey, pastikan bahwa sistem memenuhi prasyarat berikut:
 - mysql >= 5.5.9 | pgsql >= 9 | mariadb >= 5.5 | mssql >= 2005
 
 ## Memastikan sudah menginstall apache
-- ![image](https://github.com/user-attachments/assets/4f336592-f9fc-48cf-aad5-c8d74a82aa60)
+  ![image](https://github.com/user-attachments/assets/4f336592-f9fc-48cf-aad5-c8d74a82aa60)
 
 ## Kita juga dapat memantau dan mengelola database menggunakan mysqlserver phpmyadmin
-- ![image](https://github.com/user-attachments/assets/4cf21b2b-c0c5-4ac8-93c1-4cae8e961c64)
+  ![image](https://github.com/user-attachments/assets/4cf21b2b-c0c5-4ac8-93c1-4cae8e961c64)
 
 ## Proses Instalasi:
 - Buka command line (kelompok kami menggunakan command line pada windows)
