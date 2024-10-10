@@ -2,6 +2,16 @@
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
+# Anggota kelompok 3 P1 Project KDJK
+| Nama | NIM |
+| -----| ----|
+| Jesika Oktaviani | G6401221038|
+| Sindi Aprilianti | G6401221037|
+| Ammar Radhi Aziz Chan | 
+| Muhammad Shidqi Abhinaya | 
+| Chairul Rifky Tirtacahyadi | 
+| Schin Nasarani Pangaribuan | X1004241070|
+
 # Sekilas Tentang
 LimeSurvey adalah platform survei online yang sederhana dan efisien, memungkinkan pengguna untuk membuat dan mengelola survei secara anonim. Platform ini dirancang untuk memudahkan berbagai kalangan, seperti mahasiswa, profesional, maupun perusahaan, dalam mendapatkan data yang relevan melalui survei yang dirancang secara cepat dan mudah. LimeSurvey juga tersedia secara gratis, dengan fitur-fitur yang memungkinkan pengguna merancang survei dengan antarmuka yang intuitif, serta memperoleh wawasan yang berguna untuk berbagai keperluan analisis data.
 # Instalasi
