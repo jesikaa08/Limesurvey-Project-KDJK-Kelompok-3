@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/3f99ecc1-a4be-497b-8078-c0368b2ca4c2)
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Hosting](#hosting) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 # Anggota kelompok 3 P1 Project KDJK
 | Nama | NIM |
@@ -14,6 +14,7 @@
 
 # Sekilas Tentang
 LimeSurvey adalah platform survei online yang sederhana dan efisien, memungkinkan pengguna untuk membuat dan mengelola survei secara anonim. Platform ini dirancang untuk memudahkan berbagai kalangan, seperti mahasiswa, profesional, maupun perusahaan, dalam mendapatkan data yang relevan melalui survei yang dirancang secara cepat dan mudah. LimeSurvey juga tersedia secara gratis, dengan fitur-fitur yang memungkinkan pengguna merancang survei dengan antarmuka yang intuitif, serta memperoleh wawasan yang berguna untuk berbagai keperluan analisis data.
+
 # Instalasi
 Sebelum menginstal LimeSurvey, pastikan bahwa sistem memenuhi prasyarat berikut:
 - Apache >= 2.4 | nginx >= 1.1 | any other php-ready webserver
@@ -79,6 +80,41 @@ Cocokkan dengan data user serta database yang sudah kita buat tadi
 - Setelah itu kita dapat membuat survey, lalu survey siap disebarkan!
 ![image](https://github.com/user-attachments/assets/a4f85d97-ccca-4ae7-8779-dfeb8851b888)
 
+# Hosting
+## Menjalankan aplikasi web pada penyedia layanan hosting
+Kelompok kami memakai jasa hosting dari rumahweb. Kami memakai layanan yang menyediakan jasa hosting web selama satu bulan, dengan limitasi ukuran file sebesar max 1 GB, support aplikasi php, mysql dan setaranya. Kami mengupload file aplikasi yang sudah dikonfigurasi database dan administrasinya di localhost.
+![image](https://github.com/user-attachments/assets/59e30c9f-79da-4406-aa1f-18ac9dac5b8c)
+Untuk tata caranya:
+- Klik entry hosting lalu login ke Cpanel
+  ![image](https://github.com/user-attachments/assets/25c12cb6-c683-4e3d-ac09-7375a24d6536)
+- Lalu akan muncul tampilan seperti ini
+  ![image](https://github.com/user-attachments/assets/3018a5e5-8672-4627-96c9-70fcd7e9c297)
+- Setelah itu, klik mysql button untuk membuat database baru, buat user dan database baru
+  ![image](https://github.com/user-attachments/assets/fd5d832e-4bff-4862-897e-f35294965903)
+- Database baru tersebut yang masih kosong akan kita manfaatkan untuk diisi oleh database localhost yang diekpor. Ekspor database limesurvey, pastikan format filenya .sql
+  ![image](https://github.com/user-attachments/assets/804e035b-07e1-449d-b36d-4cc1d707e464)
+  ![image](https://github.com/user-attachments/assets/40b03d5b-87dc-4984-af7f-b21e666f1f62)
+- Setelah itu, buka database yang baru saja kita buat di mysql rumahweb melalui phpmyadmin, klik database kdjk5557_limesurvey, setelah itu, import database local.
+  Tampilannya akan menjadi seperti ini,setelah import database berhasil:
+  ![image](https://github.com/user-attachments/assets/e3beb238-1f96-4912-9dc9-316dae749989)
+- Setelah database selesai diimport, kita ke file manager untuk mengupload file local. Buka kembali cpanel lalu masuk ke file manager. Upload file limesurvey kita ke folder yang bernama 
+  public_html. Namun sebelum itu zip terlebih dahulu untuk menghindari kelebihan ukuran file. Setelah file zipnya diupload, ekstrak file zip tersebut di dalam folder public_html.
+  ![image](https://github.com/user-attachments/assets/6e6c9605-cc13-49c8-9fae-00a8ef90302c)
+- Atur konfigurasi database,host dan user pada file config.php menyesuaikan dengan database dan privileged user yang sudah kita buat pada rumahweb.
+  ![image](https://github.com/user-attachments/assets/3a57c4f8-d836-416b-b64f-c2c91f6ca55a)
+  - klik save changes
+    ![image](https://github.com/user-attachments/assets/a8d5378e-0468-466f-8f63-95287b03cec8)
+
+- Sekarang, aplikasi sudah dapat berjalan di link: https://kdjklimesurvey.my.id/limesurvey/index.php/994878?lang=id
+  - User publik akan dapat melihat berbagai survey yang tersedia
+  - ![image](https://github.com/user-attachments/assets/a9ea0cfc-1fa3-46bc-9d68-dd09c81f05c4)
+
+  ![image](https://github.com/user-attachments/assets/c51d3d64-cb96-4d72-9a9a-01bc8174dd38)
+  ![image](https://github.com/user-attachments/assets/f0023eb1-bbae-498e-9cb9-98c93856dd97)
+
+- Kita dapat mengelola aplikasi sebagai admin pada web yang sudah dihosting(cara kerjanya pastinya tetap sama dengan yang kita jalankan di localhost)
+  ![image](https://github.com/user-attachments/assets/37bda59f-0368-48a0-a191-e16c6129f097)
+
 
 
 # Konfigurasi
@@ -101,8 +137,9 @@ Berikut adalah langkah-langkah yang perlu dilakukan:
   mode pemeliharaan.
   ![image](https://github.com/user-attachments/assets/2c3e07a6-bc11-4f0a-82ae-3639530fa540)
 - Izinkan Akses untuk IP Tertentu
-  Jika kita ingin mengizinkan teman untuk mengakses aplikasi selama mode pemeliharaan, masukkan alamat IP mereka pada kolom Maintenance IP. Hal ini memungkinkan mereka untuk mengakses aplikasi meskipun dalam mode pemeliharaan.
-   ![Screenshot 2024-10-08 225132](https://github.com/user-attachments/assets/7c360551-2f74-42aa-9edb-904159f2a06a)
+  Jika kita ingin mengizinkan teman untuk mengakses aplikasi selama mode pemeliharaan, masukkan alamat IP mereka pada kolom Maintenance IP. Hal ini memungkinkan mereka untuk mengakses 
+  aplikasi meskipun dalam mode pemeliharaan.
+  ![Screenshot 2024-10-08 225132](https://github.com/user-attachments/assets/7c360551-2f74-42aa-9edb-904159f2a06a)
 
 - Setelah mengisi alamat IP, jangan lupa untuk mengklik tombol Save untuk menyimpan perubahan
  ![Screenshot 2024-10-08 224855](https://github.com/user-attachments/assets/4584542c-d64e-49b3-bfd8-bd7229e93bea)
@@ -120,8 +157,6 @@ Di sini kita dapat memilih untuk menginstallnya ke cloud softaculos atau mengins
 - Kita tidak perlu menginstall aplikasi limesurvey melalui command line, kita hanya perlu mengakses website resmi instalasi versi terbaru dari limesurvey.
 - Install packages dan file zip limesurvey pada link https://community.limesurvey.org/downloads/
  ![image](https://github.com/user-attachments/assets/e8ea99c7-0f5b-4bc2-923c-0ad6129001e2)
-
-
 
 # Cara Pemakaian
 Setelah instalasi, pengguna dapat mengakses LimeSurvey melalui browser dengan mengunjungi alamat server yang sesuai. Antarmuka aplikasi akan menampilkan berbagai fungsi utama, termasuk:
@@ -148,7 +183,6 @@ Untuk mengaktivasi, dapat dilakukan di menu aktivasi berikut.
 - Setelah itu kita dapat melihat jawaban yang kita kirimkan di menu survey responses
   Dari jawaban para responden, kita dapat menganalisa data-data yang telah terkumpul
 ![image](https://github.com/user-attachments/assets/e0d4ee62-e6b1-4e87-a87c-03c5396a5722)
-
 
 
 # Pembahasan
