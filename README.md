@@ -151,6 +151,7 @@ LimeSurvey memiliki kelebihan seperti antarmuka yang user-friendly dan fitur yan
   <summary> Perbandingan dengan platform sejenis</summary>
   Dibandingkan dengan platform survei lain, misalnya Google Form, aplikasi LimeSurvey memiliki keunggulan dalam mengelola survey dengan efisien. Selain itu, LimeSurvey juga memberi kontrol penuh atas data yang ada, karena aplikasi ini dapat di install di server lokal. Sedangkan Google Forms mengedepankan survey yang sifatnya sederhana dan juga cepat. Tidak begitu cocok untuk survey yang kompleks, karena fiturnya masih terbatas.
 </details>
+
 # Referensi
 - https://github.com/LimeSurvey/LimeSurvey/tree/master
 - https://www.limesurvey.org/
