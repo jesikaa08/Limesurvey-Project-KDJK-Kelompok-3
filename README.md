@@ -107,7 +107,7 @@ Untuk tata caranya:
 
 - Sekarang, aplikasi sudah dapat berjalan di link: https://kdjklimesurvey.my.id/limesurvey/index.php/994878?lang=id
   - User publik akan dapat melihat berbagai survey yang tersedia
-  - ![image](https://github.com/user-attachments/assets/a9ea0cfc-1fa3-46bc-9d68-dd09c81f05c4)
+  ![image](https://github.com/user-attachments/assets/a9ea0cfc-1fa3-46bc-9d68-dd09c81f05c4)
 
   ![image](https://github.com/user-attachments/assets/c51d3d64-cb96-4d72-9a9a-01bc8174dd38)
   ![image](https://github.com/user-attachments/assets/f0023eb1-bbae-498e-9cb9-98c93856dd97)
