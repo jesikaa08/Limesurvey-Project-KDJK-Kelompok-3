@@ -101,14 +101,14 @@ Untuk tata caranya:
   public_html. Namun sebelum itu zip terlebih dahulu untuk menghindari kelebihan ukuran file. Setelah file zipnya diupload, ekstrak file zip tersebut di dalam folder public_html.
   ![image](https://github.com/user-attachments/assets/6e6c9605-cc13-49c8-9fae-00a8ef90302c)
 - Atur konfigurasi database,host dan user pada file config.php menyesuaikan dengan database dan privileged user yang sudah kita buat pada rumahweb.
-  ![image](https://github.com/user-attachments/assets/3a57c4f8-d836-416b-b64f-c2c91f6ca55a)
+![image](https://github.com/user-attachments/assets/3a57c4f8-d836-416b-b64f-c2c91f6ca55a)
+  
 - klik save changes
-  ![image](https://github.com/user-attachments/assets/a8d5378e-0468-466f-8f63-95287b03cec8)
+![image](https://github.com/user-attachments/assets/a8d5378e-0468-466f-8f63-95287b03cec8)
 
 - Sekarang, aplikasi sudah dapat berjalan di link: https://kdjklimesurvey.my.id/limesurvey/index.php/994878?lang=id
   - User publik akan dapat melihat berbagai survey yang tersedia
   ![image](https://github.com/user-attachments/assets/a9ea0cfc-1fa3-46bc-9d68-dd09c81f05c4)
-
   ![image](https://github.com/user-attachments/assets/c51d3d64-cb96-4d72-9a9a-01bc8174dd38)
   ![image](https://github.com/user-attachments/assets/f0023eb1-bbae-498e-9cb9-98c93856dd97)
 
@@ -170,6 +170,8 @@ Berikut merupakan tahapannya:
 ![image](https://github.com/user-attachments/assets/bdc23177-38fb-4307-9404-654870e25610)
 - Kita dapat melihat preview survey yang kita buat, namun karena survey belum kita aktifkan, maka data dari pengguna tidak akan masuk ke database kita.
 ![image](https://github.com/user-attachments/assets/904bf7b5-db4a-4664-ac1d-7bb5699f34a4)
+- Kita juga dapat melihat statistik respons survey kita di halaman statistik, selain itu kita dapat menganalisis respons para responden melalui fitur visualisasi yang disediakan oleh limesurvey.
+![image](https://github.com/user-attachments/assets/f647fbc6-84d9-485a-bd47-cd5e550906cf)
 
 ## Mengelola survei yang sudah ada
 Limesurvey memungkinkan kita untuk mengelola survey yang telah kita buat termasuk untuk mengedit, serta mengaktifkan survey yang sudah kita buat.
@@ -193,7 +195,8 @@ LimeSurvey memiliki kelebihan seperti antarmuka yang user-friendly dan fitur yan
 </details>
 <details>
   <summary> Perbandingan dengan platform sejenis</summary>
-  Dibandingkan dengan platform survei lain, misalnya Google Form, aplikasi LimeSurvey memiliki keunggulan dalam mengelola survey dengan efisien. Selain itu, LimeSurvey juga memberi kontrol penuh atas data yang ada, karena aplikasi ini dapat di install di server lokal. Sedangkan Google Forms mengedepankan survey yang sifatnya sederhana dan juga cepat. Tidak begitu cocok untuk survey yang kompleks, karena fiturnya masih terbatas.
+   Dibandingkan dengan platform survei lain, misalnya Google Form, aplikasi LimeSurvey memiliki keunggulan dalam mengelola survey dengan efisien. Selain itu, LimeSurvey juga memberi kontrol penuh atas data yang ada, karena aplikasi ini dapat di install di server lokal. Sedangkan Google Forms mengedepankan survey yang sifatnya sederhana dan juga cepat. Tidak begitu cocok untuk survey yang kompleks, karena fiturnya masih terbatas.
+  LimeSurvey adalah pilihan yang tepat bagi pengguna yang membutuhkan solusi survei yang fleksibel dan mendalam, terutama untuk proyek yang melibatkan survei yang kompleks dan skala besar. Kelebihan seperti fitur yang kaya dan kemampuan self-hosting memberikan keunggulan dibandingkan platform survei yang lebih sederhana seperti Google Forms. Namun, antarmuka yang kurang menarik dan dukungan teknis yang terbatas dapat menjadi hambatan bagi beberapa pengguna.
 </details>
 
 # Referensi
