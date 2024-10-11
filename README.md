@@ -170,8 +170,6 @@ Berikut merupakan tahapannya:
 ![image](https://github.com/user-attachments/assets/bdc23177-38fb-4307-9404-654870e25610)
 - Kita dapat melihat preview survey yang kita buat, namun karena survey belum kita aktifkan, maka data dari pengguna tidak akan masuk ke database kita.
 ![image](https://github.com/user-attachments/assets/904bf7b5-db4a-4664-ac1d-7bb5699f34a4)
-- Kita juga dapat melihat statistik respons survey kita di halaman statistik, selain itu kita dapat menganalisis respons para responden melalui fitur visualisasi yang disediakan oleh limesurvey.
-![image](https://github.com/user-attachments/assets/f647fbc6-84d9-485a-bd47-cd5e550906cf)
 
 ## Mengelola survei yang sudah ada
 Limesurvey memungkinkan kita untuk mengelola survey yang telah kita buat termasuk untuk mengedit, serta mengaktifkan survey yang sudah kita buat.
@@ -185,6 +183,10 @@ Untuk mengaktivasi, dapat dilakukan di menu aktivasi berikut.
 - Setelah itu kita dapat melihat jawaban yang kita kirimkan di menu survey responses
   Dari jawaban para responden, kita dapat menganalisa data-data yang telah terkumpul
 ![image](https://github.com/user-attachments/assets/e0d4ee62-e6b1-4e87-a87c-03c5396a5722)
+
+- Kita juga dapat melihat statistik respons survey kita di halaman statistik, selain itu kita dapat menganalisis respons para responden melalui fitur visualisasi yang disediakan oleh limesurvey.
+![image](https://github.com/user-attachments/assets/f647fbc6-84d9-485a-bd47-cd5e550906cf)
+
 
 
 # Pembahasan
