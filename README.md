@@ -102,8 +102,8 @@ Untuk tata caranya:
   ![image](https://github.com/user-attachments/assets/6e6c9605-cc13-49c8-9fae-00a8ef90302c)
 - Atur konfigurasi database,host dan user pada file config.php menyesuaikan dengan database dan privileged user yang sudah kita buat pada rumahweb.
   ![image](https://github.com/user-attachments/assets/3a57c4f8-d836-416b-b64f-c2c91f6ca55a)
-  - klik save changes
-    ![image](https://github.com/user-attachments/assets/a8d5378e-0468-466f-8f63-95287b03cec8)
+- klik save changes
+  ![image](https://github.com/user-attachments/assets/a8d5378e-0468-466f-8f63-95287b03cec8)
 
 - Sekarang, aplikasi sudah dapat berjalan di link: https://kdjklimesurvey.my.id/limesurvey/index.php/994878?lang=id
   - User publik akan dapat melihat berbagai survey yang tersedia
