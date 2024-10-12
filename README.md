@@ -108,7 +108,7 @@ Untuk tata caranya:
 - klik save changes
 ![image](https://github.com/user-attachments/assets/a8d5378e-0468-466f-8f63-95287b03cec8)
 
-- Sekarang, aplikasi sudah dapat berjalan di link: https://kdjklimesurvey.my.id/limesurvey/index.php/994878?lang=id
+- Sekarang, aplikasi sudah dapat berjalan di link: https://kdjklimesurvey.my.id/limesurvey/
   - User publik akan dapat melihat berbagai survey yang tersedia
   ![image](https://github.com/user-attachments/assets/a9ea0cfc-1fa3-46bc-9d68-dd09c81f05c4)
   ![image](https://github.com/user-attachments/assets/c51d3d64-cb96-4d72-9a9a-01bc8174dd38)
@@ -139,7 +139,8 @@ Berikut adalah langkah-langkah yang perlu dilakukan:
   mode pemeliharaan.
   ![image](https://github.com/user-attachments/assets/2c3e07a6-bc11-4f0a-82ae-3639530fa540)
 - Izinkan Akses untuk IP Tertentu
-  Jika kita ingin mengizinkan teman untuk mengakses aplikasi selama mode pemeliharaan, masukkan alamat IP mereka pada kolom Maintenance IP. Hal ini memungkinkan mereka untuk mengakses 
+  Jika kita ingin mengizinkan teman untuk mengakses aplikasi selama mode pemeliharaan, masukkan alamat IP mereka pada kolom Maintenance IP. 
+  Hal ini memungkinkan mereka untuk mengakses 
   aplikasi meskipun dalam mode pemeliharaan.
   ![Screenshot 2024-10-08 225132](https://github.com/user-attachments/assets/7c360551-2f74-42aa-9edb-904159f2a06a)
 
