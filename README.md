@@ -34,17 +34,17 @@ Sebelum menginstal LimeSurvey, pastikan bahwa sistem memenuhi prasyarat berikut:
 ![image](https://github.com/user-attachments/assets/9599b237-eefb-461e-b258-f751d90da72b)
 Proses instalasi sedang berjalan
 ![image](https://github.com/user-attachments/assets/3ea2ea42-3271-43a1-9786-e966297ba515)
-Setelah melakukan proses instalasi, extract file zip yang telah diinstall ke dalam folder baru, sebelum itu buatlah folder baru bernama limesurvey.
+Buat folder baru bernama limesurvey, kemudian extract file zip yang telah terinstal ke folder tersebut.
 ![image](https://github.com/user-attachments/assets/e2c3c968-e3eb-4380-bf61-9f8b74f1efd3)
 ![image](https://github.com/user-attachments/assets/4ba19a70-fa86-423d-8aa6-c88de575394d)
 ## Buat database untuk limesurvey
-- Buka command line masuk ke MariaDB/MySQL
+- Buka command line dan masuk ke MariaDB/MySQL
 ![image](https://github.com/user-attachments/assets/32eec320-87ed-43ba-a9ad-388e3b56f572)
-- Buat database bernama limesurvey, tampilkan seluruh database untuk memastikan database limesurvey sudah dibuat
+- Buat database bernama limesurvey, lalu tampilkan seluruh database untuk memastikan database limesurvey telah dibuat
 ![image](https://github.com/user-attachments/assets/edd359c0-854c-424a-b748-aa3ec3445a67)
-- Setelah itu, buat pengguna baru bernama lime_user yang dapat mengakses database dari localhost (komputer yang sama dengan server MariaDB). Buat juga identifikasi pengguna, kata sandi untuk pengguna ini adalah 12345.
+- Setelah itu, buat pengguna baru bernama lime_user yang dapat mengakses database dari localhost, dari kkomputer yang sama dengan server MariaDB. Kemumdian buat juga identifikasi pengguna dan kata sandi untuk pengguna ini adalah 12345.
 ![image](https://github.com/user-attachments/assets/d37c9ea1-0980-46c6-bdf7-2851d8b29300)
-- Berikan semua privilege kepada pengguna lime_user untuk database limesurvey, memungkinkan operasi seperti SELECT, INSERT, UPDATE, dan DELETE.
+- Berikan semua privileged kepada pengguna lime_user untuk operasi di database limesurvey, seperti SELECT, INSERT, UPDATE, dan DELETE.
 ![image](https://github.com/user-attachments/assets/e798b11b-d298-456d-be72-acfbb0205351)
 - Segarkan hak akses agar perubahan segera berlaku.
 ![image](https://github.com/user-attachments/assets/8aa915cb-b82c-4ac9-b2be-ee70caf1eb3c)
@@ -71,13 +71,13 @@ Cocokkan dengan data user serta database yang sudah kita buat tadi
 ![Screenshot 2024-10-08 164940](https://github.com/user-attachments/assets/0b14dd0e-7f2b-4ba9-be48-55f396908eca)
 ![Screenshot 2024-10-08 164950](https://github.com/user-attachments/assets/e9c7472d-6564-4997-bfcc-cf864c5a2d65)
 
-- Setelah itu, klik next hingga limesurvey terinstall dengan sempurna
+- Setelah itu, klik next hingga limesurvey selesai terinstall.
 ![Screenshot 2024-10-08 165009](https://github.com/user-attachments/assets/aee0a402-af68-455a-a3b6-b8cb1371c6ca)
 
-- Klik tombol administration agar diarahkan ke halaman login admin
+- Klik tombol administration agar diarahkan ke halaman login admin.
 ![image](https://github.com/user-attachments/assets/778eda77-2343-4a7f-9695-35e48f2725df)
 
-- Setelah itu kita dapat membuat survey, lalu survey siap disebarkan!
+- Setelah itu kita sudah dapat membuat survei dan laman survei siap disebar.
 ![image](https://github.com/user-attachments/assets/a4f85d97-ccca-4ae7-8779-dfeb8851b888)
 
 # Hosting
@@ -130,7 +130,7 @@ Maintenance mode dapat digunakan ketika kita berencana melakukan modifikasi atau
 - Login ke Admin Panel
   Akses admin panel LimeSurvey dengan menggunakan kredensial.
 - Navigasi ke Pengaturan Umum
-  Setelah masuk, klik pada menu Pengaturan di sidebar, lalu di dalam menu pengaturan, cari dan pilih tab Maintenance.
+  Setelah masuk, klik menu pengaturan di sidebar, lalu cari tab Maintenance.
 - Aktifkan Maintenance Mode
   Klik tombol untuk mengaktifkan atau menonaktifkan maintenance mode sesuai kebutuhan. Pilih "On" untuk mengaktifkan 
   mode pemeliharaan.
@@ -160,36 +160,35 @@ Di sini kita dapat memilih untuk menginstallnya ke cloud softaculos atau mengins
 Setelah instalasi, pengguna dapat mengakses LimeSurvey melalui browser dengan mengunjungi alamat server yang sesuai, kemudian antarmuka aplikasi akan menampilkan berbagai fungsi utama, seperti:
 ## Membuat survei baru.
 Berikut merupakan tahapannya:
-- Masukkan judul survey, setting bahasa serta kebutuhan lain yang diperlukan, kemudian klik "create survey"
+- Masukkan judul survei, setting bahasa, dan kebutuhan lain yang diperlukan, kemudian klik "create survey"
 ![image](https://github.com/user-attachments/assets/fdd6c681-f54c-4976-b361-bed2e625a544)
-- Isi Kategori Survey, lalu tambahkan beberapa pertanyaan
+- Isi Kategori Survei, lalu tambahkan beberapa pertanyaan
 ![image](https://github.com/user-attachments/assets/62369d4f-1879-4ff5-a835-81bde2bae4b4)
-- Kita dapat membuat, lalu mengedit pertanyaan pada survey
+- Kita dapat membuat dan mengedit pertanyaan pada survei
 ![image](https://github.com/user-attachments/assets/bdc23177-38fb-4307-9404-654870e25610)
-- Kita dapat melihat preview survey yang kita buat, namun karena survey belum kita aktifkan, maka data dari pengguna tidak akan masuk ke database kita.
+- Kita dapat melihat preview survei yang kita buat, namun karena survei belum kita aktifkan, maka data dari pengguna tidak akan masuk ke database kita.
 ![image](https://github.com/user-attachments/assets/904bf7b5-db4a-4664-ac1d-7bb5699f34a4)
 
 ## Mengelola survei yang sudah ada
-Limesurvey memungkinkan kita untuk mengelola survey yang telah kita buat termasuk untuk mengedit, serta mengaktifkan survey yang sudah kita buat.
-Untuk mengaktivasi, dapat dilakukan di menu aktivasi berikut. 
-Pengguna dapat mengelola survei yang telah dibuat, seperti melakukakan pengeditan dan mengaktifkan survei. Jika ingin melakukan aktivasi, dapat masuk ke menu aktivasi berikut ini.
+LimeSurvey memungkinkan kita untuk dapat mengelola survei yang telah dibuat, seperti melakukan pengeditan dan mengaktifkan survei.
+Jika ingin melakukan aktivasi, dapat masuk ke menu aktivasi berikut ini.
 ![image](https://github.com/user-attachments/assets/d54e8868-6a84-43fb-840a-4a67fb1741d2)
 
-- Setelah kita mengaktivasi survey yang kita buat, kita akan mencoba untuk mengirim beberapa jawaban
+- Setelah dilakukan aktivasi survei, coba untuk mengirim beberapa jawaban
 ![image](https://github.com/user-attachments/assets/a8ef3808-636e-4f47-8305-bb6905c6297b)
-- Akan muncul notifikasi
+- Jika terkirim, maka akan muncul notifikasi
 ![image](https://github.com/user-attachments/assets/45b21161-602c-434a-a8ad-1d0d4d6f66f5)
 - Setelah itu kita dapat melihat jawaban yang kita kirimkan di menu survei responses
   Dari jawaban para responden, kita dapat menganalisa data-data yang telah terkumpul
 ![image](https://github.com/user-attachments/assets/e0d4ee62-e6b1-4e87-a87c-03c5396a5722)
 
-- Kita juga dapat melihat statistik respons survey kita di halaman statistik, selain itu kita dapat menganalisis respons para responden melalui fitur visualisasi yang disediakan oleh limesurvey.
+- Statistik repons dari survei yang telah kita buat dapat dilihat di menu statistik. Selain itu, kita juga dapat menganalisis respon para responden tersebut melalui fitur visualisasi yang disediakan LimeSurvey.
 ![image](https://github.com/user-attachments/assets/f647fbc6-84d9-485a-bd47-cd5e550906cf)
 
 
 
 # Pembahasan
-LimeSurvey memiliki keunggulan ketika digunakan untuk survei kompleks dan berskala besar. Platform ini juga memberikan kontrol penuh atas data yang ada, karena di install di server lokal. Namun, LimeSurvey kekurangan dalam hal dukungan teknis, antarmuka yang kurang friendly dan terkesan monoton. 
+LimeSurvey memiliki keunggulan ketika digunakan untuk survei kompleks dan berskala besar, dapat melihat statistik dan juga visualisasi dari para responden untuk memudahkan analisis data. Platform ini juga memberikan kontrol penuh atas data yang ada, karena di install di server lokal. Namun, LimeSurvey kekurangan dalam hal dukungan teknis, antarmuka yang kurang friendly dan terkesan monoton. 
    Dibandingkan dengan platform survei lain, misalnya Google Form, aplikasi LimeSurvey memiliki keunggulan dalam mengelola survey dengan efisien. Selain itu, LimeSurvey juga memberi kontrol penuh atas data yang ada, karena aplikasi ini dapat di install di server lokal. Sedangkan Google Forms mengedepankan survey yang sifatnya sederhana dan juga cepat. Tidak begitu cocok untuk survey yang kompleks, karena fiturnya masih terbatas.
   LimeSurvey adalah pilihan yang tepat bagi pengguna yang membutuhkan solusi survei yang fleksibel dan mendalam, terutama untuk proyek yang melibatkan survei yang kompleks dan skala besar. Kelebihan seperti fitur yang kaya dan kemampuan self-hosting memberikan keunggulan dibandingkan platform survei yang lebih sederhana seperti Google Forms. Namun, antarmuka yang kurang menarik dan dukungan teknis yang terbatas dapat menjadi hambatan bagi beberapa pengguna.
 
