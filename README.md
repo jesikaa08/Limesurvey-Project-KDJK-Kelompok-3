@@ -97,7 +97,6 @@ Untuk tata caranya:
 - Buka database yang telah dibuat di mysql melalui phpmyadmin, lalu klik database kdjk5557_limesurvey, lalu import database local.
   Tampilannya akan menjadi seperti berikut ini ketika import database telah berhasil.
   ![image](https://github.com/user-attachments/assets/e3beb238-1f96-4912-9dc9-316dae749989)
-- Setelah database selesai diimport, kita ke file manager untuk mengupload file local. Buka kembali cpanel lalu masuk ke file manager. Upload file limesurvey kita ke folder yang bernama
 - Setelah database selesai diimport, buka cpanel dan masuk ke file manager. Berikutnya unggah file limesurvey ke folder bernama public_html dengan format zip untuk menghindari kelebihan ukuran file. Setelah file zipnya berhasil diunggah, ekstrak file tersebut di dalam folder public_html.
   ![image](https://github.com/user-attachments/assets/6e6c9605-cc13-49c8-9fae-00a8ef90302c)
 - Atur konfigurasi database, host, dan user pada file cofig.php untuk menyesuaikan dengan database dan privileged user yang telah dibuat pada rumahweb.
