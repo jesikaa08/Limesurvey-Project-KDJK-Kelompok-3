@@ -179,7 +179,7 @@ Pengguna dapat mengelola survei yang telah dibuat, seperti melakukakan pengedita
 ![image](https://github.com/user-attachments/assets/a8ef3808-636e-4f47-8305-bb6905c6297b)
 - Akan muncul notifikasi
 ![image](https://github.com/user-attachments/assets/45b21161-602c-434a-a8ad-1d0d4d6f66f5)
-- Setelah itu kita dapat melihat jawaban yang kita kirimkan di menu survey responses
+- Setelah itu kita dapat melihat jawaban yang kita kirimkan di menu survei responses
   Dari jawaban para responden, kita dapat menganalisa data-data yang telah terkumpul
 ![image](https://github.com/user-attachments/assets/e0d4ee62-e6b1-4e87-a87c-03c5396a5722)
 
@@ -189,16 +189,9 @@ Pengguna dapat mengelola survei yang telah dibuat, seperti melakukakan pengedita
 
 
 # Pembahasan
-LimeSurvey memiliki kelebihan seperti antarmuka yang user-friendly dan fitur yang kaya. Namun, mungkin terdapat kekurangan dalam hal kustomisasi dan dukungan teknis. Dibandingkan dengan aplikasi survei lain, LimeSurvey menawarkan fitur yang kompetitif dengan kemampuan untuk mengelola survei secara efisien.
-<details> 
-  <summary> Kekurangan LimeSurvey</summary>
-  LimeSurvey memiliki antarmuka yang kurang user-friendly dan terkesan monoton.
-</details>
-<details>
-  <summary> Perbandingan dengan platform sejenis</summary>
+LimeSurvey memiliki keunggulan ketika digunakan untuk survei kompleks dan berskala besar. Platform ini juga memberikan kontrol penuh atas data yang ada, karena di install di server lokal. Namun, LimeSurvey kekurangan dalam hal dukungan teknis, antarmuka yang kurang friendly dan terkesan monoton. 
    Dibandingkan dengan platform survei lain, misalnya Google Form, aplikasi LimeSurvey memiliki keunggulan dalam mengelola survey dengan efisien. Selain itu, LimeSurvey juga memberi kontrol penuh atas data yang ada, karena aplikasi ini dapat di install di server lokal. Sedangkan Google Forms mengedepankan survey yang sifatnya sederhana dan juga cepat. Tidak begitu cocok untuk survey yang kompleks, karena fiturnya masih terbatas.
   LimeSurvey adalah pilihan yang tepat bagi pengguna yang membutuhkan solusi survei yang fleksibel dan mendalam, terutama untuk proyek yang melibatkan survei yang kompleks dan skala besar. Kelebihan seperti fitur yang kaya dan kemampuan self-hosting memberikan keunggulan dibandingkan platform survei yang lebih sederhana seperti Google Forms. Namun, antarmuka yang kurang menarik dan dukungan teknis yang terbatas dapat menjadi hambatan bagi beberapa pengguna.
-</details>
 
 # Referensi
 - https://github.com/LimeSurvey/LimeSurvey/tree/master
