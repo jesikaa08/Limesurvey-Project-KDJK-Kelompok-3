@@ -7,7 +7,7 @@
 | -----| ----|
 | Jesika Oktaviani | G6401221038|
 | Sindi Aprilianti | G6401221037|
-| Ammar Radhi Aziz Chan | 
+| Ammar Radhi Aziz Chan | G6401221075
 | Muhammad Shidqi Abhinaya | G6401221096 |
 | Chairul Rifky Tirtacahyadi | G6401221067 |
 | Schin Nasarani Pangaribuan | X1004241070 |
