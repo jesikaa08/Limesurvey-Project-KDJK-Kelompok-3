@@ -2,7 +2,7 @@
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Hosting](#hosting) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
-# Anggota kelompok 3 P1 Project KDJK
+# Kelompok 3 P1 Project KDJK
 | Nama | NIM |
 | -----| ----|
 | Jesika Oktaviani | G6401221038|
@@ -14,6 +14,8 @@
 
 # Sekilas Tentang
 LimeSurvey adalah platform survei online yang sederhana dan efisien, memungkinkan pengguna untuk membuat dan mengelola survei secara anonim. Platform ini dirancang untuk memudahkan berbagai kalangan, seperti mahasiswa, profesional, maupun perusahaan, dalam mendapatkan data yang relevan melalui survei yang dirancang secara cepat dan mudah. LimeSurvey juga tersedia secara gratis, dengan fitur-fitur yang memungkinkan pengguna merancang survei dengan antarmuka yang intuitif, serta memperoleh wawasan yang berguna untuk berbagai keperluan analisis data.
+
+LimeSurvey merupakan sebuah platform survei online yang bersifat sederhana dan efisien. Selain itu, aplikasi ini juga memungkinkan pengguna untuk dapat membuat dan mengelola survei secara anonim. Dirancang untuk memudahkan banyak kalangan, mulai dari mahasiswa, profesional,hingga perusahaan dalam mendapatkan data yang relevan melalui survei yang disusun secara cepat dan mudah. LimeSurvey tersedia secara gratis, dilengkapi dengan fitur-fitur yang memungkinkan pengguna untuk merancang survei dengan antarmuka yang intuitif, dan mendapatkan informasi yang dapat dimanfaatkan untuk berbagai keperluan, khususnya terkait analisis data.
 
 # Instalasi
 Sebelum menginstal LimeSurvey, pastikan bahwa sistem memenuhi prasyarat berikut:
