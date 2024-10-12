@@ -83,10 +83,10 @@ Cocokkan dengan data user serta database yang sudah kita buat tadi
 # Hosting
 ## Menjalankan aplikasi web pada penyedia layanan hosting
 Kelompok kami menggunakan jasa hosting dari rumahweb dengan rincian layanan hosting web selama satu bulan, limitasi ukuran file sebesar maksimal 1 GB, support aplikasi php, mysql dan sejenisnya. Kami juga mengunggah file aplikasi yang database dan administrasinya telah dikonfigurasi di localhost.
-![image](https://github.com/user-attachments/assets/59e30c9f-79da-4406-aa1f-18ac9dac5b8c)
+![image](https://github.com/user-attachments/assets/1cf08c58-ed97-4b95-929b-ea0b010fb25a)
 Untuk tata caranya:
 - Klik entry hosting lalu login ke Cpanel
-  ![image](https://github.com/user-attachments/assets/25c12cb6-c683-4e3d-ac09-7375a24d6536)
+  ![image](https://github.com/user-attachments/assets/644b4e82-2bb4-4380-be40-73edd5c6bd06)
 - Lalu akan muncul tampilan seperti ini
   ![image](https://github.com/user-attachments/assets/3018a5e5-8672-4627-96c9-70fcd7e9c297)
 - Setelah itu, klik mysql button untuk membuat database dan user baru.
