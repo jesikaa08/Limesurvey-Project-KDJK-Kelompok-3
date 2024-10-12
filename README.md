@@ -13,8 +13,6 @@
 | Schin Nasarani Pangaribuan | X1004241070 |
 
 # Sekilas Tentang
-LimeSurvey adalah platform survei online yang sederhana dan efisien, memungkinkan pengguna untuk membuat dan mengelola survei secara anonim. Platform ini dirancang untuk memudahkan berbagai kalangan, seperti mahasiswa, profesional, maupun perusahaan, dalam mendapatkan data yang relevan melalui survei yang dirancang secara cepat dan mudah. LimeSurvey juga tersedia secara gratis, dengan fitur-fitur yang memungkinkan pengguna merancang survei dengan antarmuka yang intuitif, serta memperoleh wawasan yang berguna untuk berbagai keperluan analisis data.
-
 LimeSurvey merupakan sebuah platform survei online yang bersifat sederhana dan efisien. Selain itu, aplikasi ini juga memungkinkan pengguna untuk dapat membuat dan mengelola survei secara anonim. Dirancang untuk memudahkan banyak kalangan, mulai dari mahasiswa, profesional,hingga perusahaan dalam mendapatkan data yang relevan melalui survei yang disusun secara cepat dan mudah. LimeSurvey tersedia secara gratis, dilengkapi dengan fitur-fitur yang memungkinkan pengguna untuk merancang survei dengan antarmuka yang intuitif, dan mendapatkan informasi yang dapat dimanfaatkan untuk berbagai keperluan, khususnya terkait analisis data.
 
 # Instalasi
@@ -120,18 +118,17 @@ Untuk tata caranya:
 
 
 # Konfigurasi
-- Untuk menentukan konfigurasi umum, kita dapat mengakses menu configuration.
+- Menu configuration dapat digunakan untuk menentukan konfigurasi umum
 ![image](https://github.com/user-attachments/assets/43dd6514-aca8-4edf-9dbb-f764a2138366)
 
-- Contohnya kita dapat memilih tema survey kita.
+- Contohnya pengguna dapat memilih tema survei sesuai kebutuhan
 ![image](https://github.com/user-attachments/assets/e03445cd-3617-46da-9e65-12f5d54e63e1)
 
 
 # Maintenance
-Ketika kita ingin melakukan pemeliharaan atau modifikasi pada aplikasi LimeSurvey yang sudah terinstal, kita mungkin tidak ingin responden atau pengguna lain mengakses survei atau fitur lain selama proses ini. Dalam situasi seperti itu, kita dapat mengatur aplikasi ke dalam maintenance mode.
-Berikut adalah langkah-langkah yang perlu dilakukan:
+Maintenance mode dapat digunakan ketika kita berencana melakukan modifikasi ataupun pemeliharaan pada aplikasi LimeSurvey yang sudah terinstal tapi tidak ingin pengguna atau responden mengakses fitur atau survei yang ada, cukup ikuti langkah-langkah berikut ini:  
 - Login ke Admin Panel
-  Akses admin panel LimeSurvey dengan menggunakan kredensial Anda.
+  Akses admin panel LimeSurvey dengan menggunakan kredensial.
 - Navigasi ke Pengaturan Umum
   Setelah masuk, klik pada menu Pengaturan di sidebar, lalu di dalam menu pengaturan, cari dan pilih tab Maintenance.
 - Aktifkan Maintenance Mode
@@ -139,9 +136,7 @@ Berikut adalah langkah-langkah yang perlu dilakukan:
   mode pemeliharaan.
   ![image](https://github.com/user-attachments/assets/2c3e07a6-bc11-4f0a-82ae-3639530fa540)
 - Izinkan Akses untuk IP Tertentu
-  Jika kita ingin mengizinkan teman untuk mengakses aplikasi selama mode pemeliharaan, masukkan alamat IP mereka pada kolom Maintenance IP. 
-  Hal ini memungkinkan mereka untuk mengakses 
-  aplikasi meskipun dalam mode pemeliharaan.
+  Jika kita ingin mengizinkan teman untuk mengakses aplikasi selama mode pemeliharaan, masukkan alamat IP mereka pada kolom Maintenance IP, yang memungkinkan mereka tetap dapat mengakses aplikasi meskipun sedang berada dalam mode pemeliharaan.
   ![Screenshot 2024-10-08 225132](https://github.com/user-attachments/assets/7c360551-2f74-42aa-9edb-904159f2a06a)
 
 - Setelah mengisi alamat IP, jangan lupa untuk mengklik tombol Save untuk menyimpan perubahan
@@ -151,23 +146,23 @@ Berikut adalah langkah-langkah yang perlu dilakukan:
 # Otomatisasi
 Untuk mempermudah instalasi, kita dapat menggunakan dua cara, yaitu:
 ## Cara pertama
-- Menginstall aplikasi Limesurvey pada pengedia layanan hosting seperti softaculos. Kita dapat mengunjungi situs softaculos.com lalu mencari aplikasi limesurvey pada searchbar atau pada kategori polls & analytics.
+- Menginstall aplikasi Limesurvey pada pengedia layanan hosting seperti softaculos, dengan cara mengunjungi situs softaculos.com lalu mencari aplikasi limesurvey pada searchbar atau pada kategori polls & analytics.
 ![image](https://github.com/user-attachments/assets/ac91369b-b01f-4503-b86c-13cd52356fbd)
 Di sini kita dapat memilih untuk menginstallnya ke cloud softaculos atau menginstall dan mengembangkannya di lokal.
 ![image](https://github.com/user-attachments/assets/15df75de-11ed-4290-b018-6ecad87bc850)
 
 ## Cara kedua
-- Kita tidak perlu menginstall aplikasi limesurvey melalui command line, kita hanya perlu mengakses website resmi instalasi versi terbaru dari limesurvey.
+- Hanya perlu mengakses website resmi instalasi versi terbaru dari LimeSurvey tanpa perlu menginstal melalui command line.
 - Install packages dan file zip limesurvey pada link https://community.limesurvey.org/downloads/
  ![image](https://github.com/user-attachments/assets/e8ea99c7-0f5b-4bc2-923c-0ad6129001e2)
 
 # Cara Pemakaian
-Setelah instalasi, pengguna dapat mengakses LimeSurvey melalui browser dengan mengunjungi alamat server yang sesuai. Antarmuka aplikasi akan menampilkan berbagai fungsi utama, termasuk:
+Setelah instalasi, pengguna dapat mengakses LimeSurvey melalui browser dengan mengunjungi alamat server yang sesuai, kemudian antarmuka aplikasi akan menampilkan berbagai fungsi utama, seperti:
 ## Membuat survei baru.
 Berikut merupakan tahapannya:
 - Masukkan judul survey, setting bahasa serta kebutuhan lain yang diperlukan, kemudian klik "create survey"
 ![image](https://github.com/user-attachments/assets/fdd6c681-f54c-4976-b361-bed2e625a544)
-- Isi Kategori Survey, Lalu tambahkan beberapa pertanyaan
+- Isi Kategori Survey, lalu tambahkan beberapa pertanyaan
 ![image](https://github.com/user-attachments/assets/62369d4f-1879-4ff5-a835-81bde2bae4b4)
 - Kita dapat membuat, lalu mengedit pertanyaan pada survey
 ![image](https://github.com/user-attachments/assets/bdc23177-38fb-4307-9404-654870e25610)
