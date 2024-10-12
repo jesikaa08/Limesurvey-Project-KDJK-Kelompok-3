@@ -176,6 +176,7 @@ Berikut merupakan tahapannya:
 ## Mengelola survei yang sudah ada
 Limesurvey memungkinkan kita untuk mengelola survey yang telah kita buat termasuk untuk mengedit, serta mengaktifkan survey yang sudah kita buat.
 Untuk mengaktivasi, dapat dilakukan di menu aktivasi berikut. 
+Pengguna dapat mengelola survei yang telah dibuat, seperti melakukakan pengeditan dan mengaktifkan survei. Jika ingin melakukan aktivasi, dapat masuk ke menu aktivasi berikut ini.
 ![image](https://github.com/user-attachments/assets/d54e8868-6a84-43fb-840a-4a67fb1741d2)
 
 - Setelah kita mengaktivasi survey yang kita buat, kita akan mencoba untuk mengirim beberapa jawaban
