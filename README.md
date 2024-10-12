@@ -82,37 +82,37 @@ Cocokkan dengan data user serta database yang sudah kita buat tadi
 
 # Hosting
 ## Menjalankan aplikasi web pada penyedia layanan hosting
-Kelompok kami memakai jasa hosting dari rumahweb. Kami memakai layanan yang menyediakan jasa hosting web selama satu bulan, dengan limitasi ukuran file sebesar max 1 GB, support aplikasi php, mysql dan setaranya. Kami mengupload file aplikasi yang sudah dikonfigurasi database dan administrasinya di localhost.
+Kelompok kami menggunakan jasa hosting dari rumahweb dengan rincian layanan hosting web selama satu bulan, limitasi ukuran file sebesar maksimal 1 GB, support aplikasi php, mysql dan sejenisnya. Kami juga mengunggah file aplikasi yang database dan administrasinya telah dikonfigurasi di localhost.
 ![image](https://github.com/user-attachments/assets/59e30c9f-79da-4406-aa1f-18ac9dac5b8c)
 Untuk tata caranya:
 - Klik entry hosting lalu login ke Cpanel
   ![image](https://github.com/user-attachments/assets/25c12cb6-c683-4e3d-ac09-7375a24d6536)
 - Lalu akan muncul tampilan seperti ini
   ![image](https://github.com/user-attachments/assets/3018a5e5-8672-4627-96c9-70fcd7e9c297)
-- Setelah itu, klik mysql button untuk membuat database baru, buat user dan database baru
+- Setelah itu, klik mysql button untuk membuat database dan user baru.
   ![image](https://github.com/user-attachments/assets/fd5d832e-4bff-4862-897e-f35294965903)
-- Database baru tersebut yang masih kosong akan kita manfaatkan untuk diisi oleh database localhost yang diekpor. Ekspor database limesurvey, pastikan format filenya .sql
+- Database tersebut nantinya akan diisi dengan database localhost LimeSurvey yang telah diekspor. Ketika akan mengekspor, pastikan format filenya berupa .sql.
   ![image](https://github.com/user-attachments/assets/804e035b-07e1-449d-b36d-4cc1d707e464)
   ![image](https://github.com/user-attachments/assets/40b03d5b-87dc-4984-af7f-b21e666f1f62)
-- Setelah itu, buka database yang baru saja kita buat di mysql rumahweb melalui phpmyadmin, klik database kdjk5557_limesurvey, setelah itu, import database local.
-  Tampilannya akan menjadi seperti ini,setelah import database berhasil:
+- Buka database yang telah dibuat di mysql melalui phpmyadmin, lalu klik database kdjk5557_limesurvey, lalu import database local.
+  Tampilannya akan menjadi seperti berikut ini ketika import database telah berhasil.
   ![image](https://github.com/user-attachments/assets/e3beb238-1f96-4912-9dc9-316dae749989)
-- Setelah database selesai diimport, kita ke file manager untuk mengupload file local. Buka kembali cpanel lalu masuk ke file manager. Upload file limesurvey kita ke folder yang bernama 
-  public_html. Namun sebelum itu zip terlebih dahulu untuk menghindari kelebihan ukuran file. Setelah file zipnya diupload, ekstrak file zip tersebut di dalam folder public_html.
+- Setelah database selesai diimport, kita ke file manager untuk mengupload file local. Buka kembali cpanel lalu masuk ke file manager. Upload file limesurvey kita ke folder yang bernama
+- Setelah database selesai diimport, buka cpanel dan masuk ke file manager. Berikutnya unggah file limesurvey ke folder bernama public_html dengan format zip untuk menghindari kelebihan ukuran file. Setelah file zipnya berhasil diunggah, ekstrak file tersebut di dalam folder public_html.
   ![image](https://github.com/user-attachments/assets/6e6c9605-cc13-49c8-9fae-00a8ef90302c)
-- Atur konfigurasi database,host dan user pada file config.php menyesuaikan dengan database dan privileged user yang sudah kita buat pada rumahweb.
+- Atur konfigurasi database, host, dan user pada file cofig.php untuk menyesuaikan dengan database dan privileged user yang telah dibuat pada rumahweb.
 ![image](https://github.com/user-attachments/assets/3a57c4f8-d836-416b-b64f-c2c91f6ca55a)
   
 - klik save changes
 ![image](https://github.com/user-attachments/assets/a8d5378e-0468-466f-8f63-95287b03cec8)
 
 - Sekarang, aplikasi sudah dapat berjalan di link: https://kdjklimesurvey.my.id/limesurvey/
-  - User publik akan dapat melihat berbagai survey yang tersedia
+  - User publik akan dapat melihat berbagai survei yang tersedia
   ![image](https://github.com/user-attachments/assets/a9ea0cfc-1fa3-46bc-9d68-dd09c81f05c4)
   ![image](https://github.com/user-attachments/assets/c51d3d64-cb96-4d72-9a9a-01bc8174dd38)
   ![image](https://github.com/user-attachments/assets/f0023eb1-bbae-498e-9cb9-98c93856dd97)
 
-- Kita dapat mengelola aplikasi sebagai admin pada web yang sudah dihosting(cara kerjanya pastinya tetap sama dengan yang kita jalankan di localhost)
+- Kita dapat mengelola aplikasi sebagai admin pada web yang sudah dihosting, yang memiliki cara kerja persis sama dengan yang telah dijalankan di localhost.
   ![image](https://github.com/user-attachments/assets/37bda59f-0368-48a0-a191-e16c6129f097)
 
 
